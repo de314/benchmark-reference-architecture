@@ -1,0 +1,1229 @@
+[
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedByConstructorBenchmark.mapLarge",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2747.094005521325,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2744.839509850495,
+                "50.0" : 2747.094005521325,
+                "90.0" : 2749.3485011921557,
+                "95.0" : 2749.3485011921557,
+                "99.0" : 2749.3485011921557,
+                "99.9" : 2749.3485011921557,
+                "99.99" : 2749.3485011921557,
+                "99.999" : 2749.3485011921557,
+                "99.9999" : 2749.3485011921557,
+                "100.0" : 2749.3485011921557
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2744.839509850495,
+                    2749.3485011921557
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedByConstructorBenchmark.mapLargeEntity",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2767.7422983872857,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2755.4844677638766,
+                "50.0" : 2767.7422983872857,
+                "90.0" : 2780.0001290106948,
+                "95.0" : 2780.0001290106948,
+                "99.0" : 2780.0001290106948,
+                "99.9" : 2780.0001290106948,
+                "99.99" : 2780.0001290106948,
+                "99.999" : 2780.0001290106948,
+                "99.9999" : 2780.0001290106948,
+                "100.0" : 2780.0001290106948
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2780.0001290106948,
+                    2755.4844677638766
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedByConstructorBenchmark.mapPublicAntipattern",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2806.0573076135033,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2773.486571911578,
+                "50.0" : 2806.0573076135033,
+                "90.0" : 2838.6280433154293,
+                "95.0" : 2838.6280433154293,
+                "99.0" : 2838.6280433154293,
+                "99.9" : 2838.6280433154293,
+                "99.99" : 2838.6280433154293,
+                "99.999" : 2838.6280433154293,
+                "99.9999" : 2838.6280433154293,
+                "100.0" : 2838.6280433154293
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2773.486571911578,
+                    2838.6280433154293
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedByConstructorBenchmark.mapSimple",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2817.2808610923566,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2761.389935342472,
+                "50.0" : 2817.2808610923566,
+                "90.0" : 2873.1717868422415,
+                "95.0" : 2873.1717868422415,
+                "99.0" : 2873.1717868422415,
+                "99.9" : 2873.1717868422415,
+                "99.99" : 2873.1717868422415,
+                "99.999" : 2873.1717868422415,
+                "99.9999" : 2873.1717868422415,
+                "100.0" : 2873.1717868422415
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2761.389935342472,
+                    2873.1717868422415
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedByConstructorBenchmark.mapSmall",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2151.7789664124475,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1532.659309032784,
+                "50.0" : 2151.7789664124475,
+                "90.0" : 2770.898623792111,
+                "95.0" : 2770.898623792111,
+                "99.0" : 2770.898623792111,
+                "99.9" : 2770.898623792111,
+                "99.99" : 2770.898623792111,
+                "99.999" : 2770.898623792111,
+                "99.9999" : 2770.898623792111,
+                "100.0" : 2770.898623792111
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    1532.659309032784,
+                    2770.898623792111
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedBySettersBenchmark.mapLarge",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2661.7549550649874,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2643.723680541295,
+                "50.0" : 2661.7549550649874,
+                "90.0" : 2679.7862295886803,
+                "95.0" : 2679.7862295886803,
+                "99.0" : 2679.7862295886803,
+                "99.9" : 2679.7862295886803,
+                "99.99" : 2679.7862295886803,
+                "99.999" : 2679.7862295886803,
+                "99.9999" : 2679.7862295886803,
+                "100.0" : 2679.7862295886803
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2679.7862295886803,
+                    2643.723680541295
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedBySettersBenchmark.mapLargeEntity",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2774.4659607048497,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2730.179888151327,
+                "50.0" : 2774.4659607048497,
+                "90.0" : 2818.752033258372,
+                "95.0" : 2818.752033258372,
+                "99.0" : 2818.752033258372,
+                "99.9" : 2818.752033258372,
+                "99.99" : 2818.752033258372,
+                "99.999" : 2818.752033258372,
+                "99.9999" : 2818.752033258372,
+                "100.0" : 2818.752033258372
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2818.752033258372,
+                    2730.179888151327
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedBySettersBenchmark.mapPublicAntipattern",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2770.130099284481,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2746.568507416159,
+                "50.0" : 2770.130099284481,
+                "90.0" : 2793.6916911528033,
+                "95.0" : 2793.6916911528033,
+                "99.0" : 2793.6916911528033,
+                "99.9" : 2793.6916911528033,
+                "99.99" : 2793.6916911528033,
+                "99.999" : 2793.6916911528033,
+                "99.9999" : 2793.6916911528033,
+                "100.0" : 2793.6916911528033
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2793.6916911528033,
+                    2746.568507416159
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedBySettersBenchmark.mapSimple",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2771.3442350889663,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2768.7983198154634,
+                "50.0" : 2771.3442350889663,
+                "90.0" : 2773.8901503624697,
+                "95.0" : 2773.8901503624697,
+                "99.0" : 2773.8901503624697,
+                "99.9" : 2773.8901503624697,
+                "99.99" : 2773.8901503624697,
+                "99.999" : 2773.8901503624697,
+                "99.9999" : 2773.8901503624697,
+                "100.0" : 2773.8901503624697
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2773.8901503624697,
+                    2768.7983198154634
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.HardCodedBySettersBenchmark.mapSmall",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2720.0566238769125,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2626.9082532599964,
+                "50.0" : 2720.0566238769125,
+                "90.0" : 2813.2049944938285,
+                "95.0" : 2813.2049944938285,
+                "99.0" : 2813.2049944938285,
+                "99.9" : 2813.2049944938285,
+                "99.99" : 2813.2049944938285,
+                "99.999" : 2813.2049944938285,
+                "99.9999" : 2813.2049944938285,
+                "100.0" : 2813.2049944938285
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2813.2049944938285,
+                    2626.9082532599964
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.MapstructBenchmark.mapLarge",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2838.007939700238,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2836.9663398593757,
+                "50.0" : 2838.007939700238,
+                "90.0" : 2839.0495395411,
+                "95.0" : 2839.0495395411,
+                "99.0" : 2839.0495395411,
+                "99.9" : 2839.0495395411,
+                "99.99" : 2839.0495395411,
+                "99.999" : 2839.0495395411,
+                "99.9999" : 2839.0495395411,
+                "100.0" : 2839.0495395411
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2836.9663398593757,
+                    2839.0495395411
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.MapstructBenchmark.mapLargeEntity",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2758.764331663245,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2643.0935779353404,
+                "50.0" : 2758.764331663245,
+                "90.0" : 2874.4350853911496,
+                "95.0" : 2874.4350853911496,
+                "99.0" : 2874.4350853911496,
+                "99.9" : 2874.4350853911496,
+                "99.99" : 2874.4350853911496,
+                "99.999" : 2874.4350853911496,
+                "99.9999" : 2874.4350853911496,
+                "100.0" : 2874.4350853911496
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2643.0935779353404,
+                    2874.4350853911496
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.MapstructBenchmark.mapPublicAntipattern",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2917.4890149637167,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2900.20772487067,
+                "50.0" : 2917.4890149637167,
+                "90.0" : 2934.7703050567634,
+                "95.0" : 2934.7703050567634,
+                "99.0" : 2934.7703050567634,
+                "99.9" : 2934.7703050567634,
+                "99.99" : 2934.7703050567634,
+                "99.999" : 2934.7703050567634,
+                "99.9999" : 2934.7703050567634,
+                "100.0" : 2934.7703050567634
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2934.7703050567634,
+                    2900.20772487067
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.MapstructBenchmark.mapSimple",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2801.4867350329587,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2768.3433000308046,
+                "50.0" : 2801.4867350329587,
+                "90.0" : 2834.6301700351123,
+                "95.0" : 2834.6301700351123,
+                "99.0" : 2834.6301700351123,
+                "99.9" : 2834.6301700351123,
+                "99.99" : 2834.6301700351123,
+                "99.999" : 2834.6301700351123,
+                "99.9999" : 2834.6301700351123,
+                "100.0" : 2834.6301700351123
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2834.6301700351123,
+                    2768.3433000308046
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.MapstructBenchmark.mapSmall",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2714.2147065289546,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2692.4159038116804,
+                "50.0" : 2714.2147065289546,
+                "90.0" : 2736.0135092462288,
+                "95.0" : 2736.0135092462288,
+                "99.0" : 2736.0135092462288,
+                "99.9" : 2736.0135092462288,
+                "99.99" : 2736.0135092462288,
+                "99.999" : 2736.0135092462288,
+                "99.9999" : 2736.0135092462288,
+                "100.0" : 2736.0135092462288
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2692.4159038116804,
+                    2736.0135092462288
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.OrikaBenchmark.mapLarge",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.4242558070193325,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.4126367178796437,
+                "50.0" : 1.4242558070193325,
+                "90.0" : 1.4358748961590213,
+                "95.0" : 1.4358748961590213,
+                "99.0" : 1.4358748961590213,
+                "99.9" : 1.4358748961590213,
+                "99.99" : 1.4358748961590213,
+                "99.999" : 1.4358748961590213,
+                "99.9999" : 1.4358748961590213,
+                "100.0" : 1.4358748961590213
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    1.4358748961590213,
+                    1.4126367178796437
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.OrikaBenchmark.mapLargeEntity",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.366206673453434,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.3517554041908781,
+                "50.0" : 1.366206673453434,
+                "90.0" : 1.38065794271599,
+                "95.0" : 1.38065794271599,
+                "99.0" : 1.38065794271599,
+                "99.9" : 1.38065794271599,
+                "99.99" : 1.38065794271599,
+                "99.999" : 1.38065794271599,
+                "99.9999" : 1.38065794271599,
+                "100.0" : 1.38065794271599
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    1.3517554041908781,
+                    1.38065794271599
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.OrikaBenchmark.mapPublicAntipattern",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.9310667202702443,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.9162692291545291,
+                "50.0" : 1.9310667202702443,
+                "90.0" : 1.9458642113859594,
+                "95.0" : 1.9458642113859594,
+                "99.0" : 1.9458642113859594,
+                "99.9" : 1.9458642113859594,
+                "99.99" : 1.9458642113859594,
+                "99.999" : 1.9458642113859594,
+                "99.9999" : 1.9458642113859594,
+                "100.0" : 1.9458642113859594
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    1.9458642113859594,
+                    1.9162692291545291
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.OrikaBenchmark.mapSimple",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.115136251972914,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.087716219068223,
+                "50.0" : 2.115136251972914,
+                "90.0" : 2.142556284877606,
+                "95.0" : 2.142556284877606,
+                "99.0" : 2.142556284877606,
+                "99.9" : 2.142556284877606,
+                "99.99" : 2.142556284877606,
+                "99.999" : 2.142556284877606,
+                "99.9999" : 2.142556284877606,
+                "100.0" : 2.142556284877606
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2.087716219068223,
+                    2.142556284877606
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.OrikaBenchmark.mapSmall",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.111404590883172,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.098323833796582,
+                "50.0" : 2.111404590883172,
+                "90.0" : 2.1244853479697623,
+                "95.0" : 2.1244853479697623,
+                "99.0" : 2.1244853479697623,
+                "99.9" : 2.1244853479697623,
+                "99.99" : 2.1244853479697623,
+                "99.999" : 2.1244853479697623,
+                "99.9999" : 2.1244853479697623,
+                "100.0" : 2.1244853479697623
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2.098323833796582,
+                    2.1244853479697623
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.PublicAntipatternBenchmark.mapLarge",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2757.8771425800023,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2694.947167693759,
+                "50.0" : 2757.8771425800023,
+                "90.0" : 2820.8071174662455,
+                "95.0" : 2820.8071174662455,
+                "99.0" : 2820.8071174662455,
+                "99.9" : 2820.8071174662455,
+                "99.99" : 2820.8071174662455,
+                "99.999" : 2820.8071174662455,
+                "99.9999" : 2820.8071174662455,
+                "100.0" : 2820.8071174662455
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2694.947167693759,
+                    2820.8071174662455
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.PublicAntipatternBenchmark.mapLargeEntity",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2787.6419368109246,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2733.849578057806,
+                "50.0" : 2787.6419368109246,
+                "90.0" : 2841.4342955640427,
+                "95.0" : 2841.4342955640427,
+                "99.0" : 2841.4342955640427,
+                "99.9" : 2841.4342955640427,
+                "99.99" : 2841.4342955640427,
+                "99.999" : 2841.4342955640427,
+                "99.9999" : 2841.4342955640427,
+                "100.0" : 2841.4342955640427
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2841.4342955640427,
+                    2733.849578057806
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.PublicAntipatternBenchmark.mapPublicAntipattern",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2695.4389448539027,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2567.409748447012,
+                "50.0" : 2695.4389448539027,
+                "90.0" : 2823.4681412607933,
+                "95.0" : 2823.4681412607933,
+                "99.0" : 2823.4681412607933,
+                "99.9" : 2823.4681412607933,
+                "99.99" : 2823.4681412607933,
+                "99.999" : 2823.4681412607933,
+                "99.9999" : 2823.4681412607933,
+                "100.0" : 2823.4681412607933
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2567.409748447012,
+                    2823.4681412607933
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.PublicAntipatternBenchmark.mapSimple",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2791.5180733449643,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2715.817280674806,
+                "50.0" : 2791.5180733449643,
+                "90.0" : 2867.218866015122,
+                "95.0" : 2867.218866015122,
+                "99.0" : 2867.218866015122,
+                "99.9" : 2867.218866015122,
+                "99.99" : 2867.218866015122,
+                "99.999" : 2867.218866015122,
+                "99.9999" : 2867.218866015122,
+                "100.0" : 2867.218866015122
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2715.817280674806,
+                    2867.218866015122
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.mappings.benchmarks.PublicAntipatternBenchmark.mapSmall",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 2,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2691.9295136466626,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2626.131694562169,
+                "50.0" : 2691.9295136466626,
+                "90.0" : 2757.727332731156,
+                "95.0" : 2757.727332731156,
+                "99.0" : 2757.727332731156,
+                "99.9" : 2757.727332731156,
+                "99.99" : 2757.727332731156,
+                "99.999" : 2757.727332731156,
+                "99.9999" : 2757.727332731156,
+                "100.0" : 2757.727332731156
+            },
+            "scoreUnit" : "ops/us",
+            "rawData" : [
+                [
+                    2757.727332731156,
+                    2626.131694562169
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

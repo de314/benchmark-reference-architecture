@@ -1,0 +1,88 @@
+package com.bettercloud.perftest.mappings.models;
+
+import java.util.Date;
+import java.util.UUID;
+
+public class ModelProperties {
+    public static final SimpleDTO SIMPLE_DTO = new SimpleDTO("a", "b");
+    public static final SmallDTO SMALL_DTO = new SmallDTO("a", "b");
+    public static final LargeDTO LARGE_DTO = new LargeDTO(
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            UUID.nameUUIDFromBytes("1".getBytes()),
+            UUID.nameUUIDFromBytes("2".getBytes()),
+            UUID.nameUUIDFromBytes("3".getBytes()),
+            UUID.nameUUIDFromBytes("4".getBytes()),
+            UUID.nameUUIDFromBytes("5".getBytes()),
+            UUID.nameUUIDFromBytes("6".getBytes()),
+            UUID.nameUUIDFromBytes("7".getBytes()),
+            new Date(0),
+            new Date(1),
+            new Date(2),
+            new Date(3),
+            new Date(4),
+            new Date(5),
+            new Date(6)
+    );
+    public static final Large LARGE_MODEL = new Large("1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            UUID.nameUUIDFromBytes("1".getBytes()),
+            UUID.nameUUIDFromBytes("2".getBytes()),
+            UUID.nameUUIDFromBytes("3".getBytes()),
+            UUID.nameUUIDFromBytes("4".getBytes()),
+            UUID.nameUUIDFromBytes("5".getBytes()),
+            UUID.nameUUIDFromBytes("6".getBytes()),
+            UUID.nameUUIDFromBytes("7".getBytes()),
+            new Date(0),
+            new Date(1),
+            new Date(2),
+            new Date(3),
+            new Date(4),
+            new Date(5),
+            new Date(6));
+    public static final PublicAntipattern PUBLIC_ANTIPATTERN = new PublicAntipattern(
+            "a",
+            1,
+            true,
+            UUID.nameUUIDFromBytes("a".getBytes()),
+            new Date(0)
+    );
+}
