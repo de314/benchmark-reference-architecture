@@ -8,7 +8,7 @@ import org.openjdk.jmh.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class OrikaBenchmark extends AbstractMapperServiceBenchmark {
+public class OrikaMapperBenchmark extends AbstractMapperServiceBenchmark {
 
     private static final MappingService mappingService = new OrikaMappingService();
 

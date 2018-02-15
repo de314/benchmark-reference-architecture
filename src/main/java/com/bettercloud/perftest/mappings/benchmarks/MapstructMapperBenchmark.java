@@ -3,7 +3,7 @@ package com.bettercloud.perftest.mappings.benchmarks;
 import com.bettercloud.perftest.mappings.mappers.MappingService;
 import com.bettercloud.perftest.mappings.mappers.MapstructMappingService;
 
-public class MapstructBenchmark extends AbstractMapperServiceBenchmark {
+public class MapstructMapperBenchmark extends AbstractMapperServiceBenchmark {
 
     private static final MappingService mappingService = MapstructMappingService.INSTANCE;
 

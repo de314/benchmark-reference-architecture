@@ -1,0 +1,804 @@
+[
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.BatchJ8StreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 161.09171690966724,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 160.17094966069942,
+                "50.0" : 161.09171690966724,
+                "90.0" : 162.01248415863506,
+                "95.0" : 162.01248415863506,
+                "99.0" : 162.01248415863506,
+                "99.9" : 162.01248415863506,
+                "99.99" : 162.01248415863506,
+                "99.999" : 162.01248415863506,
+                "99.9999" : 162.01248415863506,
+                "100.0" : 162.01248415863506
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    162.01248415863506,
+                    160.17094966069942
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.BatchJ8StreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.4020109268919345,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.186165130800992,
+                "50.0" : 1.4020109268919345,
+                "90.0" : 1.6178567229828769,
+                "95.0" : 1.6178567229828769,
+                "99.0" : 1.6178567229828769,
+                "99.9" : 1.6178567229828769,
+                "99.99" : 1.6178567229828769,
+                "99.999" : 1.6178567229828769,
+                "99.9999" : 1.6178567229828769,
+                "100.0" : 1.6178567229828769
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.186165130800992,
+                    1.6178567229828769
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.BatchStreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 163.89912355778887,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 162.39951283003106,
+                "50.0" : 163.89912355778887,
+                "90.0" : 165.39873428554665,
+                "95.0" : 165.39873428554665,
+                "99.0" : 165.39873428554665,
+                "99.9" : 165.39873428554665,
+                "99.99" : 165.39873428554665,
+                "99.999" : 165.39873428554665,
+                "99.9999" : 165.39873428554665,
+                "100.0" : 165.39873428554665
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    165.39873428554665,
+                    162.39951283003106
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.BatchStreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.4017982327753546,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.1869125604021138,
+                "50.0" : 1.4017982327753546,
+                "90.0" : 1.6166839051485955,
+                "95.0" : 1.6166839051485955,
+                "99.0" : 1.6166839051485955,
+                "99.9" : 1.6166839051485955,
+                "99.99" : 1.6166839051485955,
+                "99.999" : 1.6166839051485955,
+                "99.9999" : 1.6166839051485955,
+                "100.0" : 1.6166839051485955
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.1869125604021138,
+                    1.6166839051485955
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.InlineStreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 16.40680314801581,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 16.152706806334784,
+                "50.0" : 16.40680314801581,
+                "90.0" : 16.66089948969684,
+                "95.0" : 16.66089948969684,
+                "99.0" : 16.66089948969684,
+                "99.9" : 16.66089948969684,
+                "99.99" : 16.66089948969684,
+                "99.999" : 16.66089948969684,
+                "99.9999" : 16.66089948969684,
+                "100.0" : 16.66089948969684
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    16.66089948969684,
+                    16.152706806334784
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.InlineStreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.6649096228216131,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.6597602070914452,
+                "50.0" : 0.6649096228216131,
+                "90.0" : 0.670059038551781,
+                "95.0" : 0.670059038551781,
+                "99.0" : 0.670059038551781,
+                "99.9" : 0.670059038551781,
+                "99.99" : 0.670059038551781,
+                "99.999" : 0.670059038551781,
+                "99.9999" : 0.670059038551781,
+                "100.0" : 0.670059038551781
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.670059038551781,
+                    0.6597602070914452
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.J8StreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 16.320302990447047,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 16.129361705576724,
+                "50.0" : 16.320302990447047,
+                "90.0" : 16.51124427531737,
+                "95.0" : 16.51124427531737,
+                "99.0" : 16.51124427531737,
+                "99.9" : 16.51124427531737,
+                "99.99" : 16.51124427531737,
+                "99.999" : 16.51124427531737,
+                "99.9999" : 16.51124427531737,
+                "100.0" : 16.51124427531737
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    16.51124427531737,
+                    16.129361705576724
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.J8StreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.6655232622371738,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.6601580003805718,
+                "50.0" : 0.6655232622371738,
+                "90.0" : 0.6708885240937758,
+                "95.0" : 0.6708885240937758,
+                "99.0" : 0.6708885240937758,
+                "99.9" : 0.6708885240937758,
+                "99.99" : 0.6708885240937758,
+                "99.999" : 0.6708885240937758,
+                "99.9999" : 0.6708885240937758,
+                "100.0" : 0.6708885240937758
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.6708885240937758,
+                    0.6601580003805718
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelBatchJ8StreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 162.41555713466929,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 161.0072772195007,
+                "50.0" : 162.41555713466929,
+                "90.0" : 163.82383704983786,
+                "95.0" : 163.82383704983786,
+                "99.0" : 163.82383704983786,
+                "99.9" : 163.82383704983786,
+                "99.99" : 163.82383704983786,
+                "99.999" : 163.82383704983786,
+                "99.9999" : 163.82383704983786,
+                "100.0" : 163.82383704983786
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    163.82383704983786,
+                    161.0072772195007
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelBatchJ8StreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.4010920166039105,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.1863187969803968,
+                "50.0" : 1.4010920166039105,
+                "90.0" : 1.6158652362274244,
+                "95.0" : 1.6158652362274244,
+                "99.0" : 1.6158652362274244,
+                "99.9" : 1.6158652362274244,
+                "99.99" : 1.6158652362274244,
+                "99.999" : 1.6158652362274244,
+                "99.9999" : 1.6158652362274244,
+                "100.0" : 1.6158652362274244
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.1863187969803968,
+                    1.6158652362274244
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelBatchStreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 43.945588610460405,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 43.855024551015525,
+                "50.0" : 43.945588610460405,
+                "90.0" : 44.03615266990529,
+                "95.0" : 44.03615266990529,
+                "99.0" : 44.03615266990529,
+                "99.9" : 44.03615266990529,
+                "99.99" : 44.03615266990529,
+                "99.999" : 44.03615266990529,
+                "99.9999" : 44.03615266990529,
+                "100.0" : 44.03615266990529
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    44.03615266990529,
+                    43.855024551015525
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelBatchStreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.716211397401856,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.6071561149906146,
+                "50.0" : 2.716211397401856,
+                "90.0" : 2.825266679813097,
+                "95.0" : 2.825266679813097,
+                "99.0" : 2.825266679813097,
+                "99.9" : 2.825266679813097,
+                "99.99" : 2.825266679813097,
+                "99.999" : 2.825266679813097,
+                "99.9999" : 2.825266679813097,
+                "100.0" : 2.825266679813097
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.6071561149906146,
+                    2.825266679813097
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelInlineStreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 44.09903818489529,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 44.07516214542164,
+                "50.0" : 44.09903818489529,
+                "90.0" : 44.12291422436895,
+                "95.0" : 44.12291422436895,
+                "99.0" : 44.12291422436895,
+                "99.9" : 44.12291422436895,
+                "99.99" : 44.12291422436895,
+                "99.999" : 44.12291422436895,
+                "99.9999" : 44.12291422436895,
+                "100.0" : 44.12291422436895
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    44.12291422436895,
+                    44.07516214542164
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelInlineStreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.725249079346423,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.615277594719243,
+                "50.0" : 2.725249079346423,
+                "90.0" : 2.835220563973603,
+                "95.0" : 2.835220563973603,
+                "99.0" : 2.835220563973603,
+                "99.9" : 2.835220563973603,
+                "99.99" : 2.835220563973603,
+                "99.999" : 2.835220563973603,
+                "99.9999" : 2.835220563973603,
+                "100.0" : 2.835220563973603
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.615277594719243,
+                    2.835220563973603
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelJ8StreamsServiceBenchmark.streamSmall_fast",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 16.14443398754341,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 15.990866850748946,
+                "50.0" : 16.14443398754341,
+                "90.0" : 16.29800112433788,
+                "95.0" : 16.29800112433788,
+                "99.0" : 16.29800112433788,
+                "99.9" : 16.29800112433788,
+                "99.99" : 16.29800112433788,
+                "99.999" : 16.29800112433788,
+                "99.9999" : 16.29800112433788,
+                "100.0" : 16.29800112433788
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    16.29800112433788,
+                    15.990866850748946
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "com.bettercloud.perftest.streams.benchmarks.ParallelJ8StreamsServiceBenchmark.streamSmall_slow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dvisualvm.id=2991694673238978",
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=60550:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_91",
+        "vmVersion" : "25.91-b14",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.6651595475328704,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.659667789322294,
+                "50.0" : 0.6651595475328704,
+                "90.0" : 0.6706513057434469,
+                "95.0" : 0.6706513057434469,
+                "99.0" : 0.6706513057434469,
+                "99.9" : 0.6706513057434469,
+                "99.99" : 0.6706513057434469,
+                "99.999" : 0.6706513057434469,
+                "99.9999" : 0.6706513057434469,
+                "100.0" : 0.6706513057434469
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.6706513057434469,
+                    0.659667789322294
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

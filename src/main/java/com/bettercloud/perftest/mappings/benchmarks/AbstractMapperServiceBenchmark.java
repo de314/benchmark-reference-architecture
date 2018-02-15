@@ -7,7 +7,7 @@ import org.openjdk.jmh.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-@Fork(value = 1, warmups = 2)
+@Fork(value = 1, warmups = 1)
 @BenchmarkMode({Mode.Throughput})
 @Measurement(iterations = 2, time = 2)
 @Warmup(iterations = 2, time = 2)

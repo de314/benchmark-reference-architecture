@@ -8,7 +8,7 @@ import org.openjdk.jmh.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class PublicAntipatternBenchmark extends AbstractMapperServiceBenchmark {
+public class PublicAntipatternMapperBenchmark extends AbstractMapperServiceBenchmark {
 
     private static final MappingService mappingService = new PublicAntipatternMappingService();
 
